@@ -1,0 +1,111 @@
+/* Genel Stil Ayarları */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("images/cinema_background.jpg") no-repeat center center fixed;
+    background-size: cover; /* Arka planı sayfa genişliğine göre ölçekler */
+}
+
+/* Başlık Bölümü */
+header {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7); /* Hafif siyah arka plan */
+}
+
+#header-background img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.7; /* Görselin şeffaflığı */
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-top: 50px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Arama Bölümü */
+.search-container {
+    margin: 20px auto;
+    text-align: center;
+}
+
+#movie-title {
+    padding: 10px;
+    width: 60%;
+    font-size: 16px;
+}
+
+#search-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#search-btn:hover {
+    background-color: #45a049;
+}
+
+/* Sonuçlar */
+#results {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#results img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Footer Ayarları */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#tmdb-logo {
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+#tmdb-logo:hover {
+    opacity: 1;
+}

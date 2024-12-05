@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmim Nerede?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div id="header-background">
+            <img src="images/film_strip.png" alt="Film Şeridi">
+        </div>
+        <h1>Filmim Nerede</h1>
+        <p>Film ismini girin, hangi platformlarda olduğunu öğrenin!</p>
+    </header>
+
+    <main>
+        <div id="tmdb-service">
+            <div class="search-container">
+                <input type="text" id="movie-title" placeholder="Film veya dizi adı girin...">
+                <button id="search-btn">Ara</button>
+            </div>
+            <div id="results"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Film bilgileri <a href="https://www.themoviedb.org/" target="_blank">TMDb</a> tarafından sağlanmaktadır.</p>
+        <img src="images/timd.svg" alt="TMDb Logo" id="tmdb-logo">
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
