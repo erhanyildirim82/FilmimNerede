@@ -30,4 +30,4 @@ Filmim Nerede, bir film veya dizi adını girerek, hangi dijital platformlarda m
 
 1. Bu projeyi bilgisayarınıza klonlayın:
    ```bash
-   git clone https://github.com/kullanici-adi/filmim-nerede.git
+   git clone https://github.com/erhanyildirim82/filmim-nerede.git
